@@ -1,0 +1,15 @@
+# Stock Trading Strategy with SMA Crossover
+
+This project demonstrates a simple moving average crossover strategy using Python and PostgreSQL. It involves:
+1. Inserting stock data from an Excel file into a database.
+2. Implementing a trading strategy using short-term and long-term moving averages.
+3. Validating the data with unit tests.
+
+## Folder Structure
+- `data/`: Contains the Excel file with stock data.
+- `database/`: SQL script to create the table and Python script to insert data.
+- `strategy/`: Python script implementing the moving average crossover strategy.
+- `tests/`: Python unit tests for validating the stock data.
+
+## Setup Instructions
+1. Install dependencies:
